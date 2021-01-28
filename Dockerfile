@@ -2,12 +2,13 @@ FROM httpd:2.4.41-alpine
 
 MAINTAINER Hypoport
 
-RUN apk update ; apk add curl jq coreutils
+RUN apk update ; apk add curl jq coreutils python
 
-COPY httpd.conf /usr/local/apache2/conf/httpd.conf
 COPY cgi-bin/ /usr/local/apache2/cgi-bin/
 COPY static/ /usr/local/apache2/htdocs/
 COPY forward_env_start_httpd /usr/local/apache2/
+
+COPY httpd.conf /usr/local/apache2/conf/httpd.conf
 
 CMD ["/usr/local/apache2/forward_env_start_httpd"]
 

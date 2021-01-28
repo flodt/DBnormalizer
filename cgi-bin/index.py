@@ -39,10 +39,10 @@ print """
 		<head>
 			<meta charset="utf-8">
 			<title>DB->normalizer</title>
-			<link rel="stylesheet" type="text/css" href="/becher/static/css/bootstrapcosmo.min.css" />
-			<script src="/becher/static/js/jquery-1.11.3.min.js"></script>
-			<script src="/becher/static/js/bootstrap.min.js"></script>
-			<script src="/becher/static/js/js.cookie.js"></script>
+			<link rel="stylesheet" type="text/css" href="../htdocs/css/bootstrapcosmo.min.css" />
+			<script src="../htdocs/js/jquery-1.11.3.min.js"></script>
+			<script src="../htdocs/js/bootstrap.min.js"></script>
+			<script src="../htdocs/js/js.cookie.js"></script>
 		</head>"""
 
 

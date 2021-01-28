@@ -1,3 +1,11 @@
-# DBnormalizer
-Gives you the normal form of your database schema and transforms it into higher normal forms.
-A running live version can be found here: http://home.in.tum.de/~becher/cgi-bin/DBnormalizer/index.py
+# Setup
+- `docker build -t dbserve .`
+- `docker run -d -i -t -p 8080:80 dbserve`
+- open `localhost:8080`
+
+# Todos
+- links to static files have to be updated
+- navigating to the server yields "not found"
+
+# Sources
+Adapted from [hypoport/httpd-cgi](https://github.com/hypoport/httpd-cgi) and [becherd/DBnormalizer](https://github.com/becherd/DBnormalizer).

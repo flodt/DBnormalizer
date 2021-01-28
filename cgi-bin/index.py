@@ -116,12 +116,6 @@ def htmlstart(funModeAlert = ""):
 		</div>
 """+funModeAlert+"""
 		<br/>
-		<div class="panel panel-default">
-			<div class="panel-body">
-			<span class="label label-success">DB-Fragen? DB fragen:</span> <a href="mailto:david.becher@mytum.de">david.becher@mytum.de</a>
-			</div>
-		</div>
-		<br/>
 """
 
 

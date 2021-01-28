@@ -23,12 +23,6 @@ print """
 """+views.getHeading("Das Tutorial")+"""</div>
 			</div>
 		<br/>
-		<div class="panel panel-default">
-			<div class="panel-body">
-			<span class="label label-success">DB-Fragen? DB fragen:</span> <a href="mailto:david.becher@mytum.de">david.becher@mytum.de</a>
-			</div>
-		</div>
-		<br/>
 
 		<h1>Tutorial</h1>
 		<p>Gegeben ist immer ein Schema bestehend aus den Attributen der Relation und den Funktionalen Abhängigkeiten (FDs) bzw. Mehrwertigen Abhängigkeiten (MVDs).</p>
